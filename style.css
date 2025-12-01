@@ -1,0 +1,43 @@
+@font-face {
+    font-family: rusty;
+    src: url(RUSTY\ ATTACK\ DEMO\ Regular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image:url(https://images.unsplash.com/photo-1672011012713-de07fc9ee8fc?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px;
+}
+
+h1{
+    font-size: 100px;
+    font-family: rusty;
+    font-weight: 100;
+    color: white;
+
+
+}
+button{
+    font-size: 20px;
+    padding: 20px 40px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    font-weight: 600;
+
+}
